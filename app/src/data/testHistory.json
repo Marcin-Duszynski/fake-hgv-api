@@ -1,0 +1,87 @@
+{
+    "testHistory": [
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 24881, STREET_NAME 24881, TOWN 24881, COUNTRY 24881, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "09/01/2013",
+          "testCertificateExpiryDateAtTest": "31/01/2014",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "RegistrationToChange",
+          "testHistoryDefects": []
+        },
+        {
+            "testType": "ANNUAL MV",
+            "location": "CHECK SITE 43959, STREET_NAME 43959, TOWN 43959, COUNTRY 43959, XY99 0ZZ",
+            "testResult": "Pass after rectification",
+            "testDate": "05/01/2015",
+            "testCertificateExpiryDateAtTest": "31/01/2016",
+            "numberOfDefectsAtTest": 2,
+            "numberOfAdvisoryDefectsAtTest": 0,
+            "vehicleIdentifierAtTest": "RegistrationToChange",
+            "testHistoryDefects": [
+                {
+                    "failureItemNo": 63,
+                    "severityCode": "R",
+                    "severityDescription": "Pass after rectification",
+                    "failureReason": "Lamps",
+                    "defectCode": null,
+                    "defectDescription": null
+                },
+                {
+                    "failureItemNo": 59,
+                    "severityCode": "R",
+                    "severityDescription": "Pass after rectification",
+                    "failureReason": "Brake Systems and Components",
+                    "defectCode": null,
+                    "defectDescription": null
+                }
+            ]
+        },
+        {
+            "testType": "ANNUAL MV",
+            "location": "CHECK SITE 24881, STREET_NAME 24881, TOWN 24881, COUNTRY 24881, XY99 0ZZ",
+            "testResult": "Fail",
+            "testDate": "03/01/2013",
+            "testCertificateExpiryDateAtTest": null,
+            "numberOfDefectsAtTest": 2,
+            "numberOfAdvisoryDefectsAtTest": 2,
+            "vehicleIdentifierAtTest": "RegistrationToChange",
+            "testHistoryDefects": [
+                {
+                    "failureItemNo": 6,
+                    "severityCode": "F",
+                    "severityDescription": "Failure (but no prohibition issued)",
+                    "failureReason": "Road Wheels and Hubs",
+                    "defectCode": null,
+                    "defectDescription": null
+                },
+                {
+                    "failureItemNo": 67,
+                    "severityCode": "R",
+                    "severityDescription": "Pass after rectification",
+                    "failureReason": "Aim of Headlamps",
+                    "defectCode": null,
+                    "defectDescription": null
+                },
+                {
+                    "failureItemNo": 48,
+                    "severityCode": "A",
+                    "severityDescription": "Advisory",
+                    "failureReason": "Suspension",
+                    "defectCode": null,
+                    "defectDescription": null
+                },
+                {
+                    "failureItemNo": 66,
+                    "severityCode": "A",
+                    "severityDescription": "Advisory",
+                    "failureReason": "Indicators & Hazard Warning",
+                    "defectCode": null,
+                    "defectDescription": null
+                }
+            ]
+        }
+    ]
+}
