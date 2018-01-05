@@ -1,0 +1,322 @@
+{
+  "testHistory": [
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 44117, STREET_NAME 44117, TOWN 44117, COUNTRY 44117, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "22/04/2016",
+          "testCertificateExpiryDateAtTest": "21/04/2017",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "M5H4S20",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 44117, STREET_NAME 44117, TOWN 44117, COUNTRY 44117, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "21/04/2016",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 2,
+          "numberOfAdvisoryDefectsAtTest": 2,
+          "vehicleIdentifierAtTest": "M5H4S20",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 54,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Steering",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 59,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Brake Systems and Components",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 41,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Condition of Chassis",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 20,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Exterior of Body/Luggage area",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 44117, STREET_NAME 44117, TOWN 44117, COUNTRY 44117, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "27/02/2015",
+          "testCertificateExpiryDateAtTest": "26/02/2016",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "M5H4S20",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 44117, STREET_NAME 44117, TOWN 44117, COUNTRY 44117, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "12/02/2015",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 5,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "M5H4S20",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 1,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Registration Plates",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 20,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Exterior of Body/Luggage area",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 41,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Condition of Chassis",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 42,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Electrical Wiring & Equipment",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 66,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Indicators & Hazard Warning",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 24843, STREET_NAME 24843, TOWN 24843, COUNTRY 24843, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "21/02/2014",
+          "testCertificateExpiryDateAtTest": "20/02/2015",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 1,
+          "vehicleIdentifierAtTest": "M5H4S20",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 73,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Parking Brake Performance",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 24843, STREET_NAME 24843, TOWN 24843, COUNTRY 24843, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "07/02/2014",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 3,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "M5H4S20",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 46,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Exhaust Systems/ Waste Systems",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 57,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Transmission",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 73,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Parking Brake Performance",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 24843, STREET_NAME 24843, TOWN 24843, COUNTRY 24843, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "24/01/2013",
+          "testCertificateExpiryDateAtTest": "23/01/2014",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 2,
+          "vehicleIdentifierAtTest": "M5H4S20",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 1,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Registration Plates",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 41,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Condition of Chassis",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 24843, STREET_NAME 24843, TOWN 24843, COUNTRY 24843, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "31/12/2012",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 2,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "M5H4S20",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 67,
+                  "severityCode": "R",
+                  "severityDescription": "Pass after rectification",
+                  "failureReason": "Aim of Headlamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 73,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Parking Brake Performance",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 24843, STREET_NAME 24843, TOWN 24843, COUNTRY 24843, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "24/12/2012",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 2,
+          "numberOfAdvisoryDefectsAtTest": 1,
+          "vehicleIdentifierAtTest": "M5H4S20",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 67,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Aim of Headlamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 73,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Parking Brake Performance",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 44,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Oil and Waste Leaks",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 24843, STREET_NAME 24843, TOWN 24843, COUNTRY 24843, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "06/12/2012",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 3,
+          "numberOfAdvisoryDefectsAtTest": 2,
+          "vehicleIdentifierAtTest": "M5H4S20",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 44,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Oil and Waste Leaks",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 67,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Aim of Headlamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 73,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Parking Brake Performance",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 71,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Service Brake Performance",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 1,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Registration Plates",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      }
+  ]
+}

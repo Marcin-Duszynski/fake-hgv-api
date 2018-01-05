@@ -1,0 +1,17 @@
+{
+  "vehicle": {
+      "vehicleClass": "L",
+      "vehicleType": "PSV",
+      "chassisType": null,
+      "manufactureDate": "01/07/1999",
+      "yearOfManufacture": 1999,
+      "testCertificateExpiryDate": "29/05/2018",
+      "outOfTestMarker": "N",
+      "vehicleIdentifier": "N4R9A27",
+      "previousRegmark": "D2H3I35",
+      "registrationDate": null,
+      "numberOfAxles": 3,
+      "make": null,
+      "model": "ALIZEE II"
+  }
+}

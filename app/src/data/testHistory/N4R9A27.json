@@ -1,0 +1,96 @@
+{
+  "testHistory": [
+      {
+          "testType": "ANNUAL PSV LARGE",
+          "location": "CHECK SITE 44541, STREET_NAME 44541, TOWN 44541, COUNTRY 44541, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "30/05/2017",
+          "testCertificateExpiryDateAtTest": "29/05/2018",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "N4R9A27",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL PSV LARGE",
+          "location": "CHECK SITE 44052, STREET_NAME 44052, TOWN 44052, COUNTRY 44052, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "27/05/2016",
+          "testCertificateExpiryDateAtTest": "26/05/2017",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 1,
+          "vehicleIdentifierAtTest": "N4R9A27",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 44,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Oil and Waste Leaks",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 44116, STREET_NAME 44116, TOWN 44116, COUNTRY 44116, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "27/05/2015",
+          "testCertificateExpiryDateAtTest": "26/05/2016",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "N4R9A27",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL PSV LARGE",
+          "location": "CHECK SITE 44381, STREET_NAME 44381, TOWN 44381, COUNTRY 44381, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "26/05/2015",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 2,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "N4R9A27",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 21,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Interior/Entrance/Exit/Platfs",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 21,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Interior/Entrance/Exit/Platfs",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL PSV LARGE",
+          "location": "CHECK SITE 24888, STREET_NAME 24888, TOWN 24888, COUNTRY 24888, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "16/12/2013",
+          "testCertificateExpiryDateAtTest": "15/12/2014",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "N4R9A27",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL PSV LARGE",
+          "location": "CHECK SITE 24888, STREET_NAME 24888, TOWN 24888, COUNTRY 24888, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "14/12/2012",
+          "testCertificateExpiryDateAtTest": "13/12/2013",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "N4R9A27",
+          "testHistoryDefects": []
+      }
+  ]
+}

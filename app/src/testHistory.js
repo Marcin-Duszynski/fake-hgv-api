@@ -1,7 +1,10 @@
-let vehicleTestHistoryDate = require('./data/testHistory.json');
+const vehicleTestHistoryDateTemplate = require('./data/testHistory.json');
+const fs = require('fs');
+const path = require('path');
 const moment = require('moment');
 
 module.exports.main = (event, context, callback) => {
+  let vehicleTestHistoryDate = vehicleTestHistoryDateTemplate;
   let response = null;
 
   if (event.queryStringParameters !== null && event.queryStringParameters !== undefined && 'identifier' in event.queryStringParameters) {
@@ -39,6 +42,12 @@ module.exports.main = (event, context, callback) => {
         vehicleTestHistoryDate.testHistory[0].testCertificateExpiryDateAtTest = moment(Date.now()).format('DD/MM/YYYY');
         break;
       default:
+        try {
+          vehicleTestHistoryDate = JSON.parse(fs.readFileSync(path.resolve(`${__dirname}/data/testHistory/${registration}.json`)));
+        } catch (err) {
+          console.error(`Unknown vehicle. Provided registration ${registration}. Error ${err}`);
+          vehicleTestHistoryDate = {};
+        }
         break;
     }
 

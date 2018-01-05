@@ -1,0 +1,17 @@
+{
+  "vehicle": {
+      "vehicleClass": "S",
+      "vehicleType": "PSV",
+      "chassisType": null,
+      "manufactureDate": "01/08/2003",
+      "yearOfManufacture": 2003,
+      "testCertificateExpiryDate": "21/04/2017",
+      "outOfTestMarker": "Y",
+      "vehicleIdentifier": "M5H4S20",
+      "previousRegmark": "H1M5K96",
+      "registrationDate": null,
+      "numberOfAxles": 2,
+      "make": null,
+      "model": "CONVERSION"
+  }
+}

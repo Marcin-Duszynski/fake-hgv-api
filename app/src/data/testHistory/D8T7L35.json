@@ -1,0 +1,122 @@
+{
+  "testHistory": [
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 44416, STREET_NAME 44416, TOWN 44416, COUNTRY 44416, XY99 0ZZ",
+          "testResult": "Pass after rectification",
+          "testDate": "25/11/2016",
+          "testCertificateExpiryDateAtTest": "30/11/2017",
+          "numberOfDefectsAtTest": 2,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "D8T7L35",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 67,
+                  "severityCode": "R",
+                  "severityDescription": "Pass after rectification",
+                  "failureReason": "Aim of Headlamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 67,
+                  "severityCode": "R",
+                  "severityDescription": "Pass after rectification",
+                  "failureReason": "Aim of Headlamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 44416, STREET_NAME 44416, TOWN 44416, COUNTRY 44416, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "13/11/2015",
+          "testCertificateExpiryDateAtTest": "30/11/2016",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 2,
+          "vehicleIdentifierAtTest": "D8T7L35",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 6,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Road Wheels and Hubs",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 8,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Condition of Tyres",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 24861, STREET_NAME 24861, TOWN 24861, COUNTRY 24861, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "06/11/2014",
+          "testCertificateExpiryDateAtTest": "30/11/2015",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 1,
+          "vehicleIdentifierAtTest": "D8T7L35",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 6,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Road Wheels and Hubs",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 24861, STREET_NAME 24861, TOWN 24861, COUNTRY 24861, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "18/11/2013",
+          "testCertificateExpiryDateAtTest": "30/11/2014",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "D8T7L35",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 24861, STREET_NAME 24861, TOWN 24861, COUNTRY 24861, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "27/11/2012",
+          "testCertificateExpiryDateAtTest": "30/11/2013",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "D8T7L35",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 24861, STREET_NAME 24861, TOWN 24861, COUNTRY 24861, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "26/11/2012",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 1,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "D8T7L35",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 72,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Secondary Brake Performance",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      }
+  ]
+}

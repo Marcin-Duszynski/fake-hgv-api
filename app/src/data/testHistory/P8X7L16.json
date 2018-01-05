@@ -1,0 +1,129 @@
+{
+  "testHistory": [
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 44161, STREET_NAME 44161, TOWN 44161, COUNTRY 44161, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "07/03/2017",
+          "testCertificateExpiryDateAtTest": "16/03/2018",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "P8X7L16",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 44161, STREET_NAME 44161, TOWN 44161, COUNTRY 44161, XY99 0ZZ",
+          "testResult": "Pass after rectification",
+          "testDate": "01/03/2016",
+          "testCertificateExpiryDateAtTest": "16/03/2017",
+          "numberOfDefectsAtTest": 1,
+          "numberOfAdvisoryDefectsAtTest": 1,
+          "vehicleIdentifierAtTest": "P8X7L16",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 63,
+                  "severityCode": "R",
+                  "severityDescription": "Pass after rectification",
+                  "failureReason": "Lamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 21,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Interior/Entrance/Exit/Platfs",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 44161, STREET_NAME 44161, TOWN 44161, COUNTRY 44161, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "02/03/2015",
+          "testCertificateExpiryDateAtTest": "16/03/2016",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "P8X7L16",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 44161, STREET_NAME 44161, TOWN 44161, COUNTRY 44161, XY99 0ZZ",
+          "testResult": "Pass after rectification",
+          "testDate": "04/03/2014",
+          "testCertificateExpiryDateAtTest": "16/03/2015",
+          "numberOfDefectsAtTest": 2,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "P8X7L16",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 63,
+                  "severityCode": "R",
+                  "severityDescription": "Pass after rectification",
+                  "failureReason": "Lamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 67,
+                  "severityCode": "R",
+                  "severityDescription": "Pass after rectification",
+                  "failureReason": "Aim of Headlamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 24849, STREET_NAME 24849, TOWN 24849, COUNTRY 24849, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "27/02/2013",
+          "testCertificateExpiryDateAtTest": "16/03/2014",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "P8X7L16",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 24849, STREET_NAME 24849, TOWN 24849, COUNTRY 24849, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "22/02/2013",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 3,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "P8X7L16",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 3,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Seat Belts",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 59,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Brake Systems and Components",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 73,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Parking Brake Performance",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      }
+  ]
+}

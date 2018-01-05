@@ -1,0 +1,87 @@
+{
+  "testHistory": [
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 44341, STREET_NAME 44341, TOWN 44341, COUNTRY 44341, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "20/04/2017",
+          "testCertificateExpiryDateAtTest": "30/04/2018",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "H1T6K30",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 44341, STREET_NAME 44341, TOWN 44341, COUNTRY 44341, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "28/04/2016",
+          "testCertificateExpiryDateAtTest": "30/04/2017",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "H1T6K30",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 44341, STREET_NAME 44341, TOWN 44341, COUNTRY 44341, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "26/04/2016",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 1,
+          "numberOfAdvisoryDefectsAtTest": 1,
+          "vehicleIdentifierAtTest": "H1T6K30",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 59,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Brake Systems and Components",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 59,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Brake Systems and Components",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "LEC MV - WITHOUT LINKED TEST",
+          "location": "CHECK SITE 24861, STREET_NAME 24861, TOWN 24861, COUNTRY 24861, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "04/02/2014",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "H1T6K30",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 24861, STREET_NAME 24861, TOWN 24861, COUNTRY 24861, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "19/11/2013",
+          "testCertificateExpiryDateAtTest": "30/11/2014",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "H1T6K30",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 24861, STREET_NAME 24861, TOWN 24861, COUNTRY 24861, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "26/11/2012",
+          "testCertificateExpiryDateAtTest": "30/11/2013",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "H1T6K30",
+          "testHistoryDefects": []
+      }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "vehicle": {
+      "vehicleClass": "V",
+      "vehicleType": "HGV",
+      "chassisType": null,
+      "manufactureDate": "01/12/2003",
+      "yearOfManufacture": 2003,
+      "testCertificateExpiryDate": "28/02/2018",
+      "outOfTestMarker": "N",
+      "vehicleIdentifier": "M7X9G27",
+      "previousRegmark": "H2C9J56",
+      "registrationDate": "30/06/2003",
+      "numberOfAxles": 2,
+      "make": "IVECO FORD",
+      "model": "CARGO ML75E17"
+  }
+}

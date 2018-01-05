@@ -1,0 +1,17 @@
+{
+  "vehicle": {
+      "vehicleClass": "V",
+      "vehicleType": "HGV",
+      "chassisType": null,
+      "manufactureDate": "01/02/2002",
+      "yearOfManufacture": 2002,
+      "testCertificateExpiryDate": "30/11/2017",
+      "outOfTestMarker": "Y",
+      "vehicleIdentifier": "D8T7L35",
+      "previousRegmark": null,
+      "registrationDate": "01/01/2003",
+      "numberOfAxles": 2,
+      "make": "DAF",
+      "model": "FA LF45.150 08"
+  }
+}

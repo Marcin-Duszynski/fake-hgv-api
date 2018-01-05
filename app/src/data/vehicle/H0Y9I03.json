@@ -1,0 +1,17 @@
+{
+  "vehicle": {
+      "vehicleClass": "S",
+      "vehicleType": "PSV",
+      "chassisType": null,
+      "manufactureDate": "01/02/2007",
+      "yearOfManufacture": 2007,
+      "testCertificateExpiryDate": "17/12/2014",
+      "outOfTestMarker": "Y",
+      "vehicleIdentifier": "H0Y9I03",
+      "previousRegmark": null,
+      "registrationDate": "17/01/2008",
+      "numberOfAxles": 2,
+      "make": null,
+      "model": "TRANSIT"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "testHistory": [
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 43787, STREET_NAME 43787, TOWN 43787, COUNTRY 43787, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "21/02/2017",
+          "testCertificateExpiryDateAtTest": "25/02/2018",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 3,
+          "vehicleIdentifierAtTest": "H0Y9I09",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 20,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Exterior of Body/Luggage area",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 54,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Steering",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 73,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Parking Brake Performance",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 44186, STREET_NAME 44186, TOWN 44186, COUNTRY 44186, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "26/02/2016",
+          "testCertificateExpiryDateAtTest": "25/02/2017",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "H0Y9I09",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 44186, STREET_NAME 44186, TOWN 44186, COUNTRY 44186, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "24/02/2016",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 1,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "H0Y9I09",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 48,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Suspension",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 44186, STREET_NAME 44186, TOWN 44186, COUNTRY 44186, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "09/02/2016",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 6,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "H0Y9I09",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 16,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Doors and Emergency Exits",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 21,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Interior/Entrance/Exit/Platfs",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 37,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Service Brake Pedal",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 43,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Engine/Transmission Mountings",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 63,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Lamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 73,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Parking Brake Performance",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 44023, STREET_NAME 44023, TOWN 44023, COUNTRY 44023, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "11/12/2014",
+          "testCertificateExpiryDateAtTest": "15/12/2015",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "H0Y9I09",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 24863, STREET_NAME 24863, TOWN 24863, COUNTRY 24863, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "16/12/2013",
+          "testCertificateExpiryDateAtTest": "15/12/2014",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "H0Y9I09",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 24863, STREET_NAME 24863, TOWN 24863, COUNTRY 24863, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "06/12/2012",
+          "testCertificateExpiryDateAtTest": "05/12/2013",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 1,
+          "vehicleIdentifierAtTest": "H0Y9I09",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 3,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Seat Belts",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      }
+  ]
+}

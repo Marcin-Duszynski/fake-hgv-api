@@ -12,19 +12,6 @@ describe('When vehicle data for selected registration is requested', () => {
       done();
     });
   });
-
-  it('then vehicle json with replaced registration is returned.', (done) => {
-    vehicle.main({ queryStringParameters: { identifier: '123' } }, null, (error, response) => {
-      response.should.have.property('statusCode').eql(200);
-      response.should.have.property('body');
-
-      const responseBody = JSON.parse(response.body);
-
-      responseBody.vehicle.should.have.property('vehicleIdentifier').eql('123');
-
-      done();
-    });
-  });
 });
 
 describe('When vehicle data for registration NOHOLD1 is requested', () => {
@@ -40,6 +27,24 @@ describe('When vehicle data for registration NOHOLD1 is requested', () => {
 
       responseBody.vehicle.should.have.property('vehicleIdentifier').eql(registration);
       responseBody.vehicle.should.have.property('manufactureDate').eql(tomorrow);
+
+      done();
+    });
+  });
+});
+
+describe('When vehicle data for registration P8X7L16 is requested', () => {
+  it('then vehicle json from template is returned.', (done) => {
+    const registration = 'P8X7L16';
+
+    vehicle.main({ queryStringParameters: { identifier: registration } }, null, (error, response) => {
+      response.should.have.property('statusCode').eql(200);
+      response.should.have.property('body');
+
+      const responseBody = JSON.parse(response.body);
+
+      responseBody.vehicle.should.have.property('vehicleIdentifier').eql(registration);
+      responseBody.vehicle.should.have.property('model').eql('NEW TRANSIT');
 
       done();
     });

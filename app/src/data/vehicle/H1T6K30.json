@@ -1,0 +1,17 @@
+{
+  "vehicle": {
+      "vehicleClass": "V",
+      "vehicleType": "HGV",
+      "chassisType": null,
+      "manufactureDate": "01/12/2004",
+      "yearOfManufacture": 2004,
+      "testCertificateExpiryDate": "30/04/2018",
+      "outOfTestMarker": "N",
+      "vehicleIdentifier": "H1T6K30",
+      "previousRegmark": "I3V5M81",
+      "registrationDate": "06/01/2005",
+      "numberOfAxles": 2,
+      "make": "IVECO FORD",
+      "model": "ML100E18D"
+  }
+}

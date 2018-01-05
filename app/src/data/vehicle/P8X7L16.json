@@ -1,0 +1,17 @@
+{
+  "vehicle": {
+      "vehicleClass": "S",
+      "vehicleType": "PSV",
+      "chassisType": null,
+      "manufactureDate": "01/04/2007",
+      "yearOfManufacture": 2007,
+      "testCertificateExpiryDate": "16/03/2018",
+      "outOfTestMarker": "N",
+      "vehicleIdentifier": "P8X7L16",
+      "previousRegmark": null,
+      "registrationDate": "29/03/2007",
+      "numberOfAxles": 2,
+      "make": null,
+      "model": "NEW TRANSIT"
+  }
+}
