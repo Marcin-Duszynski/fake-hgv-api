@@ -6,14 +6,19 @@ const moment = require('moment');
 module.exports.main = (event, context, callback) => {
   let vehicleDate = vehicleDateTemplate;
   let response = null;
+  let processingError = false;
 
   if (event.queryStringParameters !== null && event.queryStringParameters !== undefined && 'identifier' in event.queryStringParameters) {
-    const registration = event.queryStringParameters.identifier;
-    console.info(`Request for vehicle ${registration} received.`);
+    const { identifier } = event.queryStringParameters;
+    console.info(`Request for vehicle ${identifier} received.`);
 
-    vehicleDate.vehicle.vehicleIdentifier = registration;
+    vehicleDate.vehicle.vehicleIdentifier = identifier;
 
-    switch (registration) {
+    switch (identifier) {
+      case 'IYKIBAAAAAA604976':
+      case 'IEADBAAAAAA509816':
+        processingError = true;
+        break;
       case 'NOHIST1':
         vehicleDate.vehicle.manufactureDate = moment(Date.now()).add(-1, 'y').add(1, 'M').format('DD/MM/YYYY');
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).format('DD/MM/YYYY');
@@ -52,17 +57,26 @@ module.exports.main = (event, context, callback) => {
         break;
       default:
         try {
-          vehicleDate = JSON.parse(fs.readFileSync(path.resolve(`${__dirname}/data/vehicle/${registration}.json`)));
+          vehicleDate = JSON.parse(fs.readFileSync(path.resolve(`${__dirname}/data/vehicle/${identifier}.json`)));
         } catch (err) {
           vehicleDate = {};
         }
         break;
     }
 
-    response = {
-      statusCode: 200,
-      body: JSON.stringify(vehicleDate),
-    };
+    if (processingError) {
+      response = {
+        statusCode: 500,
+        body: JSON.stringify({
+          message: 'Request processing error.',
+        }),
+      };
+    } else {
+      response = {
+        statusCode: 200,
+        body: JSON.stringify(vehicleDate),
+      };
+    }
   } else {
     response = {
       statusCode: 400,

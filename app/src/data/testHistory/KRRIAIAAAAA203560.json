@@ -1,0 +1,209 @@
+{
+  "testHistory": [
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 44272, STREET_NAME 44272, TOWN 44272, COUNTRY 44272, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "06/02/2017",
+          "testCertificateExpiryDateAtTest": "28/02/2018",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "AI40RRK",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 44272, STREET_NAME 44272, TOWN 44272, COUNTRY 44272, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "02/02/2017",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 2,
+          "numberOfAdvisoryDefectsAtTest": 2,
+          "vehicleIdentifierAtTest": "AI40RRK",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 38,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Service Brake Operation",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 44,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Oil Leaks",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 48,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Suspension",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 63,
+                  "severityCode": "R",
+                  "severityDescription": "Pass after rectification",
+                  "failureReason": "Lamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 44272, STREET_NAME 44272, TOWN 44272, COUNTRY 44272, XY99 0ZZ",
+          "testResult": "Pass after rectification",
+          "testDate": "12/01/2016",
+          "testCertificateExpiryDateAtTest": "31/01/2017",
+          "numberOfDefectsAtTest": 1,
+          "numberOfAdvisoryDefectsAtTest": 1,
+          "vehicleIdentifierAtTest": "AI40RRK",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 59,
+                  "severityCode": "R",
+                  "severityDescription": "Pass after rectification",
+                  "failureReason": "Brake Systems and Components",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 59,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Brake Systems and Components",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 44272, STREET_NAME 44272, TOWN 44272, COUNTRY 44272, XY99 0ZZ",
+          "testResult": "Pass after rectification",
+          "testDate": "13/01/2015",
+          "testCertificateExpiryDateAtTest": "31/01/2016",
+          "numberOfDefectsAtTest": 2,
+          "numberOfAdvisoryDefectsAtTest": 1,
+          "vehicleIdentifierAtTest": "AI40RRK",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 48,
+                  "severityCode": "R",
+                  "severityDescription": "Pass after rectification",
+                  "failureReason": "Suspension",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 63,
+                  "severityCode": "R",
+                  "severityDescription": "Pass after rectification",
+                  "failureReason": "Lamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 6,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Road Wheels and Hubs",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 43905, STREET_NAME 43905, TOWN 43905, COUNTRY 43905, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "20/12/2013",
+          "testCertificateExpiryDateAtTest": "31/12/2014",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 2,
+          "vehicleIdentifierAtTest": "AI40RRK",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 8,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Condition of Tyres",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 48,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Suspension",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "VTG10 PAID - NOT INSPECTED",
+          "location": "CHECK SITE 24970, STREET_NAME 24970, TOWN 24970, COUNTRY 24970, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "18/12/2013",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "AI40RRK",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 43905, STREET_NAME 43905, TOWN 43905, COUNTRY 43905, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "06/12/2012",
+          "testCertificateExpiryDateAtTest": "31/12/2013",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "R3E3P83",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 24875, STREET_NAME 24875, TOWN 24875, COUNTRY 24875, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "04/12/2012",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 2,
+          "numberOfAdvisoryDefectsAtTest": 1,
+          "vehicleIdentifierAtTest": "R3E3P83",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 59,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Brake Systems and Components",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 63,
+                  "severityCode": "R",
+                  "severityDescription": "Pass after rectification",
+                  "failureReason": "Lamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 6,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Road Wheels and Hubs",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      }
+  ]
+}

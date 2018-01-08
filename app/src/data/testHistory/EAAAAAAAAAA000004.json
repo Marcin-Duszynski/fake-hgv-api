@@ -1,0 +1,124 @@
+{
+  "testHistory": [
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 44101, STREET_NAME 44101, TOWN 44101, COUNTRY 44101, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "17/10/2017",
+          "testCertificateExpiryDateAtTest": "31/10/2018",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "JU57OFH",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 44101, STREET_NAME 44101, TOWN 44101, COUNTRY 44101, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "06/12/2016",
+          "testCertificateExpiryDateAtTest": "31/12/2017",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "JU57OFH",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 44101, STREET_NAME 44101, TOWN 44101, COUNTRY 44101, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "15/12/2015",
+          "testCertificateExpiryDateAtTest": "31/12/2016",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "JU57OFH",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 44101, STREET_NAME 44101, TOWN 44101, COUNTRY 44101, XY99 0ZZ",
+          "testResult": "Pass after rectification",
+          "testDate": "09/12/2014",
+          "testCertificateExpiryDateAtTest": "31/12/2015",
+          "numberOfDefectsAtTest": 1,
+          "numberOfAdvisoryDefectsAtTest": 1,
+          "vehicleIdentifierAtTest": "JU57OFH",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 53,
+                  "severityCode": "R",
+                  "severityDescription": "Pass after rectification",
+                  "failureReason": "Axles/Stub Axles/Wheel Bearing",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 67,
+                  "severityCode": "A",
+                  "severityDescription": "Advisory",
+                  "failureReason": "Aim of Headlamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 44101, STREET_NAME 44101, TOWN 44101, COUNTRY 44101, XY99 0ZZ",
+          "testResult": "Pass after rectification",
+          "testDate": "12/12/2013",
+          "testCertificateExpiryDateAtTest": "31/12/2014",
+          "numberOfDefectsAtTest": 1,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "JU57OFH",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 67,
+                  "severityCode": "R",
+                  "severityDescription": "Pass after rectification",
+                  "failureReason": "Aim of Headlamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL MV",
+          "location": "CHECK SITE 44101, STREET_NAME 44101, TOWN 44101, COUNTRY 44101, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "04/12/2013",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 2,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "JU57OFH",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 59,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Brake Systems and Components",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 67,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Aim of Headlamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "PAID RETEST",
+          "location": "CHECK SITE 24846, STREET_NAME 24846, TOWN 24846, COUNTRY 24846, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "07/12/2012",
+          "testCertificateExpiryDateAtTest": "31/12/2013",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "JU57OFH",
+          "testHistoryDefects": []
+      }
+  ]
+}

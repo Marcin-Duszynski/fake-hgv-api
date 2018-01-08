@@ -1,0 +1,17 @@
+{
+  "vehicle": {
+      "vehicleClass": "V",
+      "vehicleType": "HGV",
+      "chassisType": null,
+      "manufactureDate": "01/05/2001",
+      "yearOfManufacture": 2001,
+      "testCertificateExpiryDate": "31/10/2018",
+      "outOfTestMarker": "N",
+      "vehicleIdentifier": "WP40BNQ",
+      "previousRegmark": "F9O6Y39",
+      "registrationDate": "29/10/2001",
+      "numberOfAxles": 2,
+      "make": "DAF",
+      "model": "FA LF45.130 08"
+  }
+}

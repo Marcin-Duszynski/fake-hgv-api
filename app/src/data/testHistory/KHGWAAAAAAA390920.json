@@ -1,0 +1,94 @@
+{
+  "testHistory": [
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 44186, STREET_NAME 44186, TOWN 44186, COUNTRY 44186, XY99 0ZZ",
+          "testResult": "Fail",
+          "testDate": "06/01/2015",
+          "testCertificateExpiryDateAtTest": null,
+          "numberOfDefectsAtTest": 7,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "H0Y9I03",
+          "testHistoryDefects": [
+              {
+                  "failureItemNo": 16,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Doors and Emergency Exits",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 26,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Speedometer/Tachograph",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 28,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Driving Controls",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 37,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Service Brake Pedal",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 48,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Suspension",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 63,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Lamps",
+                  "defectCode": null,
+                  "defectDescription": null
+              },
+              {
+                  "failureItemNo": 71,
+                  "severityCode": "F",
+                  "severityDescription": "Failure (but no prohibition issued)",
+                  "failureReason": "Service Brake Performance",
+                  "defectCode": null,
+                  "defectDescription": null
+              }
+          ]
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 24863, STREET_NAME 24863, TOWN 24863, COUNTRY 24863, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "18/12/2013",
+          "testCertificateExpiryDateAtTest": "17/12/2014",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "H0Y9I03",
+          "testHistoryDefects": []
+      },
+      {
+          "testType": "ANNUAL PSV SMALL",
+          "location": "CHECK SITE 24863, STREET_NAME 24863, TOWN 24863, COUNTRY 24863, XY99 0ZZ",
+          "testResult": "Pass",
+          "testDate": "29/11/2012",
+          "testCertificateExpiryDateAtTest": "01/12/2013",
+          "numberOfDefectsAtTest": 0,
+          "numberOfAdvisoryDefectsAtTest": 0,
+          "vehicleIdentifierAtTest": "H0Y9I03",
+          "testHistoryDefects": []
+      }
+  ]
+}
