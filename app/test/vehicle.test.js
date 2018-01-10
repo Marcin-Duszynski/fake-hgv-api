@@ -26,7 +26,7 @@ describe('When vehicle data for registration NOHOLD1 is requested', () => {
       const responseBody = JSON.parse(response.body);
 
       responseBody.vehicle.should.have.property('vehicleIdentifier').eql(registration);
-      responseBody.vehicle.should.have.property('manufactureDate').eql(tomorrow);
+      responseBody.vehicle.should.have.property('registrationDate').eql(tomorrow);
 
       done();
     });

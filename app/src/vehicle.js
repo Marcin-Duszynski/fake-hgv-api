@@ -12,48 +12,68 @@ module.exports.main = (event, context, callback) => {
     const { identifier } = event.queryStringParameters;
     console.info(`Request for vehicle ${identifier} received.`);
 
-    vehicleDate.vehicle.vehicleIdentifier = identifier;
-
     switch (identifier) {
       case 'IYKIBAAAAAA604976':
       case 'IEADBAAAAAA509816':
         processingError = true;
         break;
       case 'NOHIST1':
+      case 'NGFIUJAAAAA219120':
         vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').add(1, 'M').format('DD/MM/YYYY');
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).format('DD/MM/YYYY');
+        vehicleDate.vehicle.vehicleIdentifier = 'NOHIST1';
         break;
       case 'NOHIST2':
+      case 'NGFIUJAAAAA219119':
         vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').add(1, 'M').add(1, 'd').format('DD/MM/YYYY');
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).format('DD/MM/YYYY');
+        vehicleDate.vehicle.vehicleIdentifier = 'NOHIST2';
         break;
       case 'NOHIST3':
+      case 'NGFIUJAAAAA219118':
         vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').add(1, 'M').add(-1, 'd').format('DD/MM/YYYY');
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).format('DD/MM/YYYY');
+        vehicleDate.vehicle.vehicleIdentifier = 'NOHIST3';
         break;
       case 'NOHOLD1':
+      case 'NGFIUJAAAAA219116':
         vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').format('DD/MM/YYYY');
+        vehicleDate.vehicle.vehicleIdentifier = 'NOHOLD1';
         break;
       case 'NOHOLD2':
+      case 'NGFIUJAAAAA219117':
         vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').add(1, 'd').format('DD/MM/YYYY');
+        vehicleDate.vehicle.vehicleIdentifier = 'NOHOLD2';
         break;
       case 'EXMONTH':
+      case 'NGFIUJAAAAA219115':
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).add(1, 'M').format('DD/MM/YYYY');
+        vehicleDate.vehicle.vehicleIdentifier = 'EXMONTH';
         break;
       case 'EXMONM1':
+      case 'NGFIUJAAAAA219114':
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).add(1, 'M').add(-1, 'd').format('DD/MM/YYYY');
+        vehicleDate.vehicle.vehicleIdentifier = 'EXMONM1';
         break;
       case 'EXMONP1':
+      case 'NGFIUJAAAAA219113':
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).add(1, 'M').add(1, 'd').format('DD/MM/YYYY');
+        vehicleDate.vehicle.vehicleIdentifier = 'EXMONP1';
         break;
       case 'EXYESTE':
+      case 'NGFIUJAAAAA219112':
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).add(-1, 'd').format('DD/MM/YYYY');
+        vehicleDate.vehicle.vehicleIdentifier = 'EXYESTE';
         break;
       case 'EXTOMOR':
+      case 'NGFIUJAAAAA219111':
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).add(1, 'd').format('DD/MM/YYYY');
+        vehicleDate.vehicle.vehicleIdentifier = 'EXTOMOR';
         break;
       case 'EXTODAY':
+      case 'NGFIUJAAAAA219110':
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).format('DD/MM/YYYY');
+        vehicleDate.vehicle.vehicleIdentifier = 'EXTODAY';
         break;
       default:
         try {
