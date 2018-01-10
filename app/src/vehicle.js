@@ -20,22 +20,22 @@ module.exports.main = (event, context, callback) => {
         processingError = true;
         break;
       case 'NOHIST1':
-        vehicleDate.vehicle.manufactureDate = moment(Date.now()).add(-1, 'y').add(1, 'M').format('DD/MM/YYYY');
+        vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').add(1, 'M').format('DD/MM/YYYY');
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).format('DD/MM/YYYY');
         break;
       case 'NOHIST2':
-        vehicleDate.vehicle.manufactureDate = moment(Date.now()).add(-1, 'y').add(1, 'M').add(1, 'd').format('DD/MM/YYYY');
+        vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').add(1, 'M').add(1, 'd').format('DD/MM/YYYY');
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).format('DD/MM/YYYY');
         break;
       case 'NOHIST3':
-        vehicleDate.vehicle.manufactureDate = moment(Date.now()).add(-1, 'y').add(1, 'M').add(-1, 'd').format('DD/MM/YYYY');
+        vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').add(1, 'M').add(-1, 'd').format('DD/MM/YYYY');
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).format('DD/MM/YYYY');
         break;
       case 'NOHOLD1':
-        vehicleDate.vehicle.manufactureDate = moment(Date.now()).add(-1, 'y').format('DD/MM/YYYY');
+        vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').format('DD/MM/YYYY');
         break;
       case 'NOHOLD2':
-        vehicleDate.vehicle.manufactureDate = moment(Date.now()).add(-1, 'y').add(1, 'd').format('DD/MM/YYYY');
+        vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').add(1, 'd').format('DD/MM/YYYY');
         break;
       case 'EXMONTH':
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).add(1, 'M').format('DD/MM/YYYY');
