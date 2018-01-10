@@ -74,7 +74,7 @@ module.exports.main = (event, context, callback) => {
 
 function getRegistrationForVin(identifier) {
   switch (identifier) {
-    case 'NOHIST1':
+    case 'NOHIST3':
     case 'NGFIUJAAAAA219120':
       identifier = 'NOHIST1';
       break;
@@ -82,7 +82,7 @@ function getRegistrationForVin(identifier) {
     case 'NGFIUJAAAAA219119':
       identifier = 'NOHIST2';
       break;
-    case 'NOHIST3':
+    case 'NOHIST1':
     case 'NGFIUJAAAAA219118':
       identifier = 'NOHIST3';
       break;

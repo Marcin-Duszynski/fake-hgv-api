@@ -18,7 +18,7 @@ module.exports.main = (event, context, callback) => {
         processingError = true;
         break;
       case 'NOHIST1':
-      case 'NGFIUJAAAAA219120':
+      case 'NGFIUJAAAAA219118':
         vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').add(1, 'M').format('DD/MM/YYYY');
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).format('DD/MM/YYYY');
         vehicleDate.vehicle.vehicleIdentifier = 'NOHIST1';
@@ -30,7 +30,7 @@ module.exports.main = (event, context, callback) => {
         vehicleDate.vehicle.vehicleIdentifier = 'NOHIST2';
         break;
       case 'NOHIST3':
-      case 'NGFIUJAAAAA219118':
+      case 'NGFIUJAAAAA219120':
         vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').add(1, 'M').add(-1, 'd').format('DD/MM/YYYY');
         vehicleDate.vehicle.testCertificateExpiryDate = moment(Date.now()).format('DD/MM/YYYY');
         vehicleDate.vehicle.vehicleIdentifier = 'NOHIST3';
