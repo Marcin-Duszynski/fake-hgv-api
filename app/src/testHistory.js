@@ -8,8 +8,10 @@ module.exports.main = (event, context, callback) => {
   let response = null;
 
   if (event.queryStringParameters !== null && event.queryStringParameters !== undefined && 'identifier' in event.queryStringParameters) {
-    const registration = event.queryStringParameters.identifier;
-    console.info(`Request for vehicle ${registration} received.`);
+    const { identifier } = event.queryStringParameters;
+    console.info(`Request for vehicle ${identifier} received.`);
+
+    const registration = getRegistrationForVin(identifier);
 
     vehicleTestHistoryDate.testHistory.forEach((test) => {
       test.vehicleIdentifierAtTest = registration;
@@ -69,3 +71,56 @@ module.exports.main = (event, context, callback) => {
   // Use this code if you don't use the http event with the LAMBDA-PROXY integration
   // callback(null, { message: 'Go Serverless v1.0! Your function executed successfully!', event });
 };
+
+function getRegistrationForVin(identifier) {
+  switch (identifier) {
+    case 'NOHIST1':
+    case 'NGFIUJAAAAA219120':
+      identifier = 'NOHIST1';
+      break;
+    case 'NOHIST2':
+    case 'NGFIUJAAAAA219119':
+      identifier = 'NOHIST2';
+      break;
+    case 'NOHIST3':
+    case 'NGFIUJAAAAA219118':
+      identifier = 'NOHIST3';
+      break;
+    case 'NOHOLD1':
+    case 'NGFIUJAAAAA219116':
+      identifier = 'NOHOLD1';
+      break;
+    case 'NOHOLD2':
+    case 'NGFIUJAAAAA219117':
+      identifier = 'NOHOLD2';
+      break;
+    case 'EXMONTH':
+    case 'NGFIUJAAAAA219115':
+      identifier = 'EXMONTH';
+      break;
+    case 'EXMONM1':
+    case 'NGFIUJAAAAA219114':
+      identifier = 'EXMONM1';
+      break;
+    case 'EXMONP1':
+    case 'NGFIUJAAAAA219113':
+      identifier = 'EXMONP1';
+      break;
+    case 'EXYESTE':
+    case 'NGFIUJAAAAA219112':
+      identifier = 'EXYESTE';
+      break;
+    case 'EXTOMOR':
+    case 'NGFIUJAAAAA219111':
+      identifier = 'EXTOMOR';
+      break;
+    case 'EXTODAY':
+    case 'NGFIUJAAAAA219110':
+      identifier = 'EXTODAY';
+      break;
+    default:
+      break;
+  }
+
+  return identifier;
+}
