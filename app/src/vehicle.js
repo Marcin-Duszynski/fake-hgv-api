@@ -1,10 +1,11 @@
-const vehicleDateTemplate = require('./data/vehicle.json');
+const vehiclePsvDateTemplate = require('./data/vehiclePsv.json');
+const vehicleHgvDateTemplate = require('./data/vehicleHgv.json');
 const fs = require('fs');
 const path = require('path');
 const moment = require('moment');
 
 module.exports.main = (event, context, callback) => {
-  let vehicleDate = vehicleDateTemplate;
+  let vehicleDate = vehiclePsvDateTemplate;
   let response = null;
   let processingError = false;
 
@@ -37,12 +38,13 @@ module.exports.main = (event, context, callback) => {
         break;
       case 'NOHOLD1':
       case 'NGFIUJAAAAA219116':
+        vehicleDate = vehicleHgvDateTemplate;
         vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').format('DD/MM/YYYY');
         vehicleDate.vehicle.vehicleIdentifier = 'NOHOLD1';
         break;
       case 'NOHOLD2':
       case 'NGFIUJAAAAA219117':
-        vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').add(1, 'd').format('DD/MM/YYYY');
+        vehicleDate.vehicle.registrationDate = moment(Date.now()).add(-1, 'y').format('DD/MM/YYYY');
         vehicleDate.vehicle.vehicleIdentifier = 'NOHOLD2';
         break;
       case 'EXMONTH':
