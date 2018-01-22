@@ -2,7 +2,7 @@ const chai = require('chai');
 const moment = require('moment');
 const vehicle = require('../src/vehicle');
 
-const should = chai.should();
+chai.should();
 
 describe('When vehicle data for selected registration is requested', () => {
   it('but identifier was not provided then http code 400 is returned.', (done) => {
