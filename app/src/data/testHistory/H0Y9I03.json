@@ -9,6 +9,7 @@
           "numberOfDefectsAtTest": 7,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "H0Y9I03",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 16,
@@ -77,6 +78,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "H0Y9I03",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       },
       {
@@ -88,6 +90,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "H0Y9I03",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       }
   ]

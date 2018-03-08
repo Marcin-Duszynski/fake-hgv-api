@@ -9,6 +9,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "D6Z1V87",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       },
       {
@@ -20,6 +21,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "D6Z1V87",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       },
       {
@@ -31,6 +33,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "D6Z1V87",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       },
       {
@@ -42,6 +45,7 @@
           "numberOfDefectsAtTest": 1,
           "numberOfAdvisoryDefectsAtTest": 1,
           "vehicleIdentifierAtTest": "D6Z1V87",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 53,
@@ -70,6 +74,7 @@
           "numberOfDefectsAtTest": 1,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "D6Z1V87",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 67,
@@ -90,6 +95,7 @@
           "numberOfDefectsAtTest": 2,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "D6Z1V87",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 59,
@@ -118,6 +124,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "D6Z1V87",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       }
   ]
