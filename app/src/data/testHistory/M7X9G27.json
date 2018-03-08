@@ -9,6 +9,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "M7X9G27",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       },
       {
@@ -20,6 +21,7 @@
           "numberOfDefectsAtTest": 2,
           "numberOfAdvisoryDefectsAtTest": 2,
           "vehicleIdentifierAtTest": "M7X9G27",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 38,
@@ -64,6 +66,7 @@
           "numberOfDefectsAtTest": 1,
           "numberOfAdvisoryDefectsAtTest": 1,
           "vehicleIdentifierAtTest": "M7X9G27",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 59,
@@ -92,6 +95,7 @@
           "numberOfDefectsAtTest": 2,
           "numberOfAdvisoryDefectsAtTest": 1,
           "vehicleIdentifierAtTest": "M7X9G27",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 48,
@@ -128,6 +132,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 2,
           "vehicleIdentifierAtTest": "M7X9G27",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 8,
@@ -156,6 +161,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "M7X9G27",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       },
       {
@@ -167,6 +173,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "R3E3P83",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       },
       {
@@ -178,6 +185,7 @@
           "numberOfDefectsAtTest": 2,
           "numberOfAdvisoryDefectsAtTest": 1,
           "vehicleIdentifierAtTest": "R3E3P83",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 59,

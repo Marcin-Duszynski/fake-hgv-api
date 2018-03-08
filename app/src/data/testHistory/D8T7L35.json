@@ -9,6 +9,7 @@
           "numberOfDefectsAtTest": 2,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "D8T7L35",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 67,
@@ -37,6 +38,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 2,
           "vehicleIdentifierAtTest": "D8T7L35",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 6,
@@ -65,6 +67,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 1,
           "vehicleIdentifierAtTest": "D8T7L35",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 6,
@@ -85,6 +88,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "D8T7L35",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       },
       {
@@ -96,6 +100,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "D8T7L35",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       },
       {
@@ -107,6 +112,7 @@
           "numberOfDefectsAtTest": 1,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "D8T7L35",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 72,

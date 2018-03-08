@@ -9,6 +9,7 @@
           "numberOfDefectsAtTest": 2,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "O7Y8V36",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 63,
@@ -37,6 +38,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "O7Y8V36",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       },
       {
@@ -48,6 +50,7 @@
           "numberOfDefectsAtTest": 1,
           "numberOfAdvisoryDefectsAtTest": 1,
           "vehicleIdentifierAtTest": "O7Y8V36",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 59,
@@ -76,6 +79,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "O7Y8V36",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       },
       {
@@ -87,6 +91,7 @@
           "numberOfDefectsAtTest": 2,
           "numberOfAdvisoryDefectsAtTest": 2,
           "vehicleIdentifierAtTest": "O7Y8V36",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 6,

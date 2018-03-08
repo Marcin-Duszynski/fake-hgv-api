@@ -9,6 +9,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "M5H4S20",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       },
       {
@@ -20,6 +21,7 @@
           "numberOfDefectsAtTest": 2,
           "numberOfAdvisoryDefectsAtTest": 2,
           "vehicleIdentifierAtTest": "M5H4S20",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 54,
@@ -64,6 +66,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "M5H4S20",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": []
       },
       {
@@ -75,6 +78,7 @@
           "numberOfDefectsAtTest": 5,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "M5H4S20",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 1,
@@ -127,6 +131,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 1,
           "vehicleIdentifierAtTest": "M5H4S20",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 73,
@@ -147,6 +152,7 @@
           "numberOfDefectsAtTest": 3,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "M5H4S20",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 46,
@@ -183,6 +189,7 @@
           "numberOfDefectsAtTest": 0,
           "numberOfAdvisoryDefectsAtTest": 2,
           "vehicleIdentifierAtTest": "M5H4S20",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 1,
@@ -211,6 +218,7 @@
           "numberOfDefectsAtTest": 2,
           "numberOfAdvisoryDefectsAtTest": 0,
           "vehicleIdentifierAtTest": "M5H4S20",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 67,
@@ -239,6 +247,7 @@
           "numberOfDefectsAtTest": 2,
           "numberOfAdvisoryDefectsAtTest": 1,
           "vehicleIdentifierAtTest": "M5H4S20",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 67,
@@ -275,6 +284,7 @@
           "numberOfDefectsAtTest": 3,
           "numberOfAdvisoryDefectsAtTest": 2,
           "vehicleIdentifierAtTest": "M5H4S20",
+          "testCertificateSerialNo": "GG80715",
           "testHistoryDefects": [
               {
                   "failureItemNo": 44,
